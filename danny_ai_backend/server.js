@@ -164,7 +164,7 @@ app.post("/upload", upload.single("video"), async (req, res) => {
 });
 
 // Start server
-const PORT = 30120;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, "0.0.0.0", () => {
     console.log("2ndHomeRP AI Backend running on port", PORT);
 });
