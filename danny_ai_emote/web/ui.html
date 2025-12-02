@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>2ndHomeRP – AI Emote Creator</title>
+    <link rel="stylesheet" href="ui.css" />
+</head>
+<body>
+    <div id="app">
+        <div class="panel">
+            <div class="header">
+                <span class="title">2ndHomeRP – AI Emote Creator</span>
+                <span class="subtitle">Powered by DeepMotion</span>
+            </div>
+
+            <div class="qr-container">
+                <div id="qrcode"></div>
+            </div>
+
+            <div class="info">
+                <p>Scan this QR code with your phone to open the upload page.</p>
+                <p class="small">
+                    Make sure your whole body is visible in the video and the lighting is good
+                    for the best AI emote results.
+                </p>
+            </div>
+
+            <button id="closeBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
